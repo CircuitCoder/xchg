@@ -1,0 +1,12 @@
+[package]
+name = "xchg"
+version = "0.1.0"
+authors = ["Liu Xiaoyi <circuitcoder0@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+lambda_runtime = "0.1"
+
+[[bin]]
+name="bootstrap"
+path="src/main.rs"
